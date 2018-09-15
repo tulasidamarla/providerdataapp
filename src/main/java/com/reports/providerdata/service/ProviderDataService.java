@@ -6,7 +6,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -26,7 +25,6 @@ public class ProviderDataService {
 	public Iterable<ProviderData> getAllProvidersDataByLastName(String lastName) {
 		
 		return providerDataRepository.searchByLastName(lastName);
-		//return getAllProvidersDataListFromExcel();
 	}
 
 	private List<ProviderData> getAllProvidersDataListFromExcel() {
