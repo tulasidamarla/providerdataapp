@@ -1,0 +1,24 @@
+#myDiv {
+	width: 80%; 
+	border: 1px solid black; 
+	padding: 4px;
+	margin: 0 auto	
+	
+}
+
+/*  table{
+	padding:2px;
+} */ 
+
+thead{
+	background-color: #eee;
+}
+
+table{
+	/* border: 1px solid black; */
+	padding-top: 2px;
+}
+
+/* td{
+	border: 1px solid black; 
+} */
