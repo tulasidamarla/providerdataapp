@@ -34,7 +34,6 @@ public class ProviderDataController {
 
 	@RequestMapping(value = { "/providerDataList" }, method = RequestMethod.GET)
 	public String getAllProviders(Model model) {
-		//model.addAttribute("providersData", providerDataService.getAllProvidersDataByLastName(lastName));
 		return "providersdata";
 	}
 	
@@ -49,7 +48,6 @@ public class ProviderDataController {
 	public String mergeData(Model model) {
 
 		model.addAttribute("mergeStataus", providerDataService.mergeProviderData());
-		//model.addAttribute("download", "true");
 		return "datamerge";
 	}
 	
